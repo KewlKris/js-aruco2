@@ -28,6 +28,7 @@ References:
 */
 
 var POS = POS || {};
+this.POS = POS;
 
 POS.Posit = function(modelSize, focalLength){
   this.model = this.buildModel(modelSize);
